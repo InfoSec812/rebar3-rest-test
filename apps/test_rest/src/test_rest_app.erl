@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc test-rest public API
+%% @doc test_rest public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(test-rest_app).
+-module(test_rest_app).
 
 -behaviour(application).
 
@@ -15,7 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    test-rest_sup:start_link().
+    test_rest_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->

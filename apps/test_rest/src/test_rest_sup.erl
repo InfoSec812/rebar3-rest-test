@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc test-rest top level supervisor.
+%% @doc test_rest top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(test-rest_sup).
+-module(test_rest_sup).
 
 -behaviour(supervisor).
 

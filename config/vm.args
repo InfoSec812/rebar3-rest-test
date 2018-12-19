@@ -1,6 +1,6 @@
 -sname test-rest
 
--setcookie test-rest_cookie
+-setcookie test_rest_cookie
 
 +K true
 +A30
